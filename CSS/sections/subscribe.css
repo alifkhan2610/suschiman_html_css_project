@@ -1,0 +1,44 @@
+.subcription{
+    padding: 64px;
+
+    background-color: var(--primary-color);
+    background-image: url("../../assets/subscribe_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    flex-direction: column;
+    overflow: hidden;
+}
+.subcription h2{
+    font-style: 88px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    line-height: 123px;
+
+    color: #fff;
+    text-align: center;
+}
+.subcription p{
+    font-style: 18px;
+    font-family: var(--play-jakarta);
+    font-weight: 300;
+    line-height: 36px;
+
+    margin-top: 32px;
+
+    color: rgba(255, 255, 255, 0.8);
+  
+}
+.subscription__form{
+    min-width: 480px;
+    margin-top: 40px;
+
+    padding: 14px 14px 14px 24px;
+
+    display: flex;
+    gap: 10px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-repeat: 46px;
+}
